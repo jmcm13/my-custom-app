@@ -1,6 +1,11 @@
 import React from "react";
+import ClassUpdateRedux from "./ClassUpdateRedux";
+import FunctionUpdateRedux from "./FunctionUpdateRedux";
 
 const App = () => {
-  return <h1>Hello React WHASSSAAAAAAAAAAA!</h1>;
+  return <>
+    <ClassUpdateRedux />
+    <FunctionUpdateRedux />
+  </>;
 };
 export default App;
