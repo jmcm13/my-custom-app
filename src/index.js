@@ -1,7 +1,8 @@
-require('file-loader?name=[name].[ext]!./index.html');
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
+import "./App.scss";
 
-import App from './App';
+const el = document.getElementById("app");
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, el);
